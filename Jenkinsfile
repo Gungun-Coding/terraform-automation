@@ -1,7 +1,7 @@
 
 pipeline {
     agent any
-
+    
     stages {
         stage('Cloning github repo') {
             steps {
